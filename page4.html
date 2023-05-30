@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trek and Camping</title>
+  <style>
+    /* CSS styles for the accommodation listings */
+    body {
+      background-image: url("tb.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+   
+    .trek-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      
+    }
+
+    .trek {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: rgba(249, 249, 249, 0.953); /* Add translucent background color here */
+      backdrop-filter: blur(10px); /* Add blurry background effect here */
+      display: block;
+      border-radius: 0.5rem;
+    }
+
+    .trek h2 {
+      margin-top: 0;
+      
+    }
+
+    .trek p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1><i>Trek and Camping</i></h1>
+ 
+  <div class="trek-container">
+    <div class="trek">
+      <h2>Aghanashini</h2>
+      <p>Located in Uttara kannda<br> Trek distance: 10km <br> Price: 4200</p>
+      <!-- <p></p> -->
+      
+      <a href="reservation.html">Make a reservation</a>
+    </div>
+    <div class="trek">
+      <h2>Darjeeling</h2>
+      <p>Located in Uttarkhand <br> Trek distance: 15km <br> Price: 10000</p>
+      <!-- <p></p>       -->
+      <a href="reservation.html">Make a reservation</a>
+    </div>
+    <div class="trek">
+      <h2>Pratapgad Fort</h2>
+      <p>Located in Maharashtra <br> Trek distance: 15km <br>Price: 10000 </p>
+      <!-- <p></p> -->
+      <!-- <p></p>        -->
+      <a href="reservation.html">Make a reservation</a>
+    </div>
+  </div>
+
+  <!-- Add more accommodation listings here -->
+
+</body>
+</html>

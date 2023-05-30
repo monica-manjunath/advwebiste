@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Everest base camp</title>
+  <style>
+    /* CSS styles for the accommodation listings */
+    body {
+      background-image: url("bg.png");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+   
+    .base-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .base {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: rgba(249, 249, 249, 0.953); /* Add translucent background color here */
+      backdrop-filter: blur(10px); /* Add blurry background effect here */
+      display: block;
+      border-radius: 0.5rem;
+    }
+
+    .base h2 {
+      margin-top: 0;
+    }
+
+    .base p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1><i>Everest Base Camp</i></h1>
+ 
+  <div class="base-container">
+    <div class="base">
+      <h2>Base Camp 1</h2>
+      <p>South Camp-Nepal <br>Price: 50000 </p>
+      
+      <a href="reservation.html">Make a reservation</a>
+    </div>
+    <div class="base">
+      <h2>Base Camp 2</h2>
+      <p>North Camp-Tibet <br> Price: 50000</p>
+      
+      <a href="reservation.html">Make a reservation</a>
+    </div>
+   
+  </div>
+
+  <!-- Add more accommodation listings here -->
+
+</body>
+</html>
